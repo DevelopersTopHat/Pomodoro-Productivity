@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="tomato_theme">
+        <item name="android:background">@drawable/pomodoro_design_final</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">46sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">81dp</item>
+    </style>
+
+    <style name="startButtonStyle">
+        <item name="android:background">@drawable/start_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">45dp</item>
+        <item name="android:layout_marginTop">198dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">45dp</item>
+    </style>
+
+    <style name="pauseButtonStyle">
+        <item name="android:background">@drawable/pause_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">74dp</item>
+        <item name="android:layout_alignTop">@+id/startButton</item>
+        <item name="android:layout_toLeftOf">@+id/startButton</item>
+        <item name="android:layout_toStartOf">@+id/startButton</item>
+    </style>
+
+    <style name="stopButtonStyle">
+        <item name="android:background">@drawable/stop_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginEnd">17dp</item>
+        <item name="android:layout_marginRight">17dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="pointImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="pointTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_toEndOf">@+id/imageView</item>
+        <item name="android:layout_toRightOf">@+id/imageView</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
