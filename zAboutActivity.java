@@ -9,7 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class AboutActivity extends AppCompatActivity {
+public class zAboutActivity extends AppCompatActivity {
 
     ConstraintLayout aboutLayout;
     TextView aboutSection;
